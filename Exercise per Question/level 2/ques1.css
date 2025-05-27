@@ -1,0 +1,21 @@
+
+        *{
+            margin: 0%;
+            padding: 0%;
+            font-family: 'Times New Roman', Times, serif;
+        }
+        
+        #heading{
+            height: 60px;
+            width: 200px;
+            background-color: aquamarine;
+            text-align: center;
+            text-transform: uppercase;
+            color: chocolate;
+        }
+        #in{
+            font-size: 60px;
+        }
+        #out{
+            font-size: 125px;
+        }
