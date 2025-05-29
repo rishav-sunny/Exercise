@@ -1,0 +1,21 @@
+.container{
+    height: 220px;
+    width: 500px;
+    border: 2px solid blueviolet;
+    background-color: blanchedalmond;
+}
+.box{
+    height: 100px;
+    width: 100px;
+    margin: 5px;
+}
+#box1{
+    background-color: red;
+    border: 2px solid green;
+    float: right;
+}
+#box2{
+    background-color: blue;
+    border: 1px solid mediumaquamarine;
+    float: none;
+}
