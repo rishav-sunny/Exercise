@@ -1,0 +1,75 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+nav a{
+    text-decoration: none;
+}
+nav{
+    display: flex;
+    justify-content:space-around;
+    background-color: aqua;
+    height: 25px;
+    padding: 5px;
+    
+}
+#dogImage{
+    border: 2px dashed black;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    border: 2px solid black;
+    height: 200px;
+    width: 600px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.box{
+    height: 100px;
+    width: 100px;
+    border: 1px solid black;
+    margin: 5px;
+    padding: 5px;
+
+    flex-shrink: 0;
+}
+
+#box1{
+    background-color: lightcoral;
+    
+}
+#box2{
+    background-color: lightgreen;
+    
+    flex-shrink: 1.5;
+    flex-grow: 2;
+}
+#box3{
+    background-color: lightblue;
+}
+#media_box{
+    height: 50px;
+    width: 50px;
+    font-size: 13px;
+    text-align: center;
+    padding-top: 3px;
+    border: 2px solid red;
+    background-color: green;
+}
+@media  screen and (min-width: 300px) and (max-width: 400px){
+    #media_box{
+        background-color: red;
+    }
+}
+@media  screen and (min-width: 400px) {
+    #media_box{
+        background-color: blue;
+    }
+}
+
+
+
